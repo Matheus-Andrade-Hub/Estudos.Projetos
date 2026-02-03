@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Plaster&display=swap');
+
+@font-face {
+    font-family: android;
+    src: url(../fontes/idroid.otf);
+    font-weight: normal;
+}
+
+main > h1 {
+    font-family: "android", cursive;
+}
+
+main > h2 {
+    font-family: "android", cursive;
+}
