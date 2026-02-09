@@ -1,11 +1,14 @@
-body{
-    background-color: #8385D2;
-}
+@charset "UTF-8";
 
-main {
-    background-color: white;
-    margin: auto;
-    width: 1100px;
-    height: 1000px;
-}
 
+
+/*
+    #7D82S1: azul pastel
+    #2359AF: Azul
+    #070099: Azul-Escuro
+    #9123EB: Roxo
+    #A200ES: Lilas
+    #FFFS46: Amarelo
+    #00550A: Verde-Escuro
+    #4C9550: Ver-Claro
+*/
