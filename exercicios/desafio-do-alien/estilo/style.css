@@ -1,14 +1,68 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: alienigena;
+    src: url(../fontes/alm_____.ttf);
+    font-weight: bold;
+}
 
+@font-face {
+    font-family: babydoll;
+    src: url(../fontes/Baby\ Doll.otf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: estrangeira;
+    src: url(../fontes/stray.ttf);
+    font-weight: bold
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
 /*
-    #7D82S1: azul pastel
+    #7D82D1: azul pastel
     #2359AF: Azul
     #070099: Azul-Escuro
     #9123EB: Roxo
-    #A200ES: Lilas
-    #FFFS46: Amarelo
+    #A200E5: Lilas
+    #FFF546: Amarelo
     #00550A: Verde-Escuro
-    #4C9550: Ver-Claro
+    #4C9550: Verde-Claro
 */
+
+:root {
+    --azul-pastel: #7D82D1;
+    --azul: #2359AF;
+    --azul-escuro: #070099;
+    --roxo: #9123EB;
+    --lilas: #A200E5;
+    --amarelo: #FFF546;
+    --verde-escuro: #00550A;
+    --verde-claro: #4C9550;
+    --fonte-tema: alienigena, Arial, Helvetica, sans-serif;
+    --fonte-apresentaçao: babydoll, Arial, Helvetica, sans-serif;
+    --fonte-link: "Oswald", sans-serif;
+
+}
+
+nav > a  {
+    font-family: var(--fonte-link);
+    font-weight: bolder;
+}
+
+header > h1 {
+    font-family: var(--fonte-apresentaçao);
+}
+
+main > h1  {
+    font-family: var(--fonte-tema);
+}
+
+main > h2 {
+    font-family: var(--fonte-tema);
+}
+
+section > h3 {
+    font-family: var(--fonte-tema);
+}
