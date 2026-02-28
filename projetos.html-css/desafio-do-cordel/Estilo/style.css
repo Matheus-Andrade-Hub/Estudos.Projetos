@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    height: 100vh;
+}
+
+:root {
+    --fonte-passion: "Passion One", Arial, Helvetica, sans-serif;
+    --fonte-sriracha: "Sriracha", Arial, helvetica, sans-serif;
+}
+
+header {
+    background-color: black;
+    font-family: var(--fonte-passion);
+    color:white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+header > h1 {
+    font-variant: small-caps;
+    font-size: 3em;
+}
+
+a {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section.normal {
+    background-color: white;
+    font-family: var(--fonte-sriracha);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    line-height: 2em;
+    font-size: 1.5em;
+    padding: 35px;
+}
+
+section.imagem {
+    background-color: rgba(0, 0, 0, 0.49);
+    font-family: var(--fonte-sriracha);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    line-height: 2em;
+    font-size: 1.5em;
+    padding: 35px;
+}
+
+section.imagem > p {
+    background-color: rgba(0, 0, 0, 0.345);
+    width: 300px;
+    color: white;
+    padding-left: 7px;
+    box-shadow: 1px 1px 1px black;
+}
+
+section#img01 {
+    background-image: url(../imagens/background001.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    box-shadow: inset 1px 1px 5px 1px black;
+}
+
+section#img02 {
+    background-image: url(../imagens/background002.jpg);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 1px 1px 5px 1px black;
+}
+
+section > p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
