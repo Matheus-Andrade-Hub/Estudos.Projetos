@@ -89,3 +89,9 @@ section.imagem > p {
     width: 320px;
     box-shadow: 2px 2px 10px black;
 }
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
