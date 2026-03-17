@@ -24,6 +24,10 @@ html, body {
 }
 
 header {
+        background-image: url(../imagens/imagens-home/pexels-manoah-ruiz-rodriguez-696984157-18030913.jpg);
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: black;
     color: white;
     text-align: center;
@@ -58,16 +62,24 @@ header > p {
 nav {
     text-align: left;
     padding-bottom: 15px;
+    margin-left: 9%;
 }
 
 nav > a {
-    padding: 7px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    padding-left: 7px;
+    padding-right: 7px;
     font-family: var(--menu);
     font-weight: bolder;
     font-size: 0.7em;
     text-decoration: none;
     color: white;
     margin-left: 30px;
+}
+
+.scrap {
+    margin-left: 1px;
 }
 
 nav > a:hover {
