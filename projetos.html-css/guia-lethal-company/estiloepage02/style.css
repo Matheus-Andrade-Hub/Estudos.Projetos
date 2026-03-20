@@ -13,7 +13,7 @@
 }
 
 html, body {
-    min-height: 100vh;
+    min-height: 100dvh;
     background-color: rgb(0, 0, 0);
     background-image: url(../imagens/imagens-home/pexels-manoah-ruiz-rodriguez-696984157-18030913.jpg);
     background-attachment:fixed;
@@ -27,7 +27,7 @@ html, body {
 }
 
 header {
-        background-image: url(../imagens/imagens-home/pexels-manoah-ruiz-rodriguez-696984157-18030913.jpg);
+    background-image: url(../imagens/imagens-home/pexels-manoah-ruiz-rodriguez-696984157-18030913.jpg);
     background-attachment:fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -65,7 +65,7 @@ header > p {
 nav {
     text-align: left;
     padding-bottom: 15px;
-    margin-left: 20%;
+    margin-left: 10%;
 }
 
 nav > a {
@@ -97,8 +97,8 @@ main {
     background-color: rgb(255, 255, 255);
     position: relative; 
     max-width: 900px;
-    min-width: 320px;
-    height: 12860px;
+    min-width: 320px;   
+    height: 100%;
     margin: auto;
     text-align: justify;
     padding: 10px;
@@ -127,6 +127,7 @@ main {
     background-color: rgb(0, 0, 0);
     width: 300px;
     border-radius: 5px;
+    margin-top: 21.6px;
     overflow: hidden;
 }
 .card img {
@@ -154,4 +155,68 @@ main {
 
 p {
     font-size: 1.3em;
+}
+
+.borda-vermelha {
+    background-color: rgba(255, 255, 255, 0.893);
+    background-position: center bottom;
+    background-image: url(../imagens/imagens-home/nevoa-vermelha.jpg);
+    background-size: cover;
+    height: 569px;
+    width: 340px;
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 100px;
+    margin-top: 40px;
+}
+
+.borda-laranja {
+    background-color: rgba(255, 255, 255, 0.893);
+    background-position: center bottom;
+    background-image: url(../imagens/imagens-home/nevoa-laranja.avif);
+    background-size: cover;
+    height: 569px;
+    width: 340px;
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 100px;
+    margin-top: 40px;
+}
+
+.borda-amarela {
+    background-color: rgba(255, 255, 255, 0.893);
+    background-image: url(../imagens/imagens-home/nevoa-amarela.avif);
+    background-size: cover;
+    height: 569px;
+    width: 340px;
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 100px;
+    margin-top: 40px;
+}
+
+.borda-azul {
+    background-color: rgba(255, 255, 255, 0.893);
+    background-position: center bottom;
+    background-image: url(../imagens/imagens-home/nevoa-azul.avif);
+    background-size: cover;
+    height: 569px;
+    width: 340px;
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 100px;
+    margin-top: 40px;
+}
+
+.borda-cinza {
+    background-color: rgba(255, 255, 255, 0.893);
+    background-position: center bottom;
+    background-image: url(../imagens/imagens-home/nevoa-cinza.jpg);
+    background-size: cover;
+    height: 569px;
+    width: 340px;
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 100px;
+    margin-top: 40px;
 }
