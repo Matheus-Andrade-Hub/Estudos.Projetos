@@ -58,6 +58,7 @@ mark.marc02 {
 header > p {
     font-family: var(--menu);
     font-variant: small-caps;
+    margin-top: 10px;
     margin-bottom: 50px;
     font-size: 1.1em;
 }
@@ -89,50 +90,57 @@ nav > a:hover {
 } 
 
 main {
-    background-image:url(../imagens/imagens-home/titan.jpg);
-    background-size: cover;
+    background-image: url(../imagens/imagens-home/minas.webp);
     background-attachment: fixed;
-    background-position: center right;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     background-color: white;
     max-width: 1200px;
-    min-width: 320px;   
-    height: 100%;
+    min-width: 320px;
     margin: auto;
-    padding-top: 30px;
+    text-align: justify;
+    padding: 10px;
+    height: 90%;
+    margin-bottom: 55px;
     padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 .imagem {
     display: flex;
     align-items: center;
-    gap: 20px;
-    padding: 20px;
+    gap: 12px;
 }
 
-.card-container {
-    padding-top: 20px;
-    padding-bottom: 20px;
+.card-container  {
+    width: 60%;
+    padding-right: 12px;
 }
 
 .fundo {
-    background-color: rgba(56, 40, 40, 0.47);
+    background-color: rgba(1, 63, 88, 0.251);
+    color: white;
     width: 90%;
     margin: auto;
 }
 
-p {
-    color: white;
-}
-
 img {
-    width: 200px;
-    height: 200px;
+    padding: 30px 0px 30px 30px;
+    width: 120px;
+    height: 120px;
 }
 
-p {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    overflow: hidden;
-    line-height: 2em;
+hr {
+    margin-top: 63px;
+    width: 105%;
+}
+
+div > p {
+    font-family: var(--nav);
+    font-variant: small-caps;
+    font-size: 1.3em;
+    color: #00ff00db;
 }
 
 footer {
