@@ -221,3 +221,14 @@ p {
     margin-bottom: 100px;
     margin-top: 40px;
 }
+
+footer {
+    background-color: rgba(0, 0, 0, 0.438);
+    color: white;
+    height: 235px;
+    margin: auto;
+    padding-left: 10px;
+    width: 80%;
+    line-height: 80px;
+    margin-top: 50px;
+}
