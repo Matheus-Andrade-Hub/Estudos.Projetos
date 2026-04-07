@@ -101,7 +101,7 @@ main {
     min-width: 320px;
     margin: auto;
     text-align: justify;
-    padding: 20px;
+    padding: 10px;
 }
 
 section > h2 {
@@ -127,6 +127,7 @@ section > p {
 main > picture > img {
     display: block;
     margin: 0 auto;
+    width: 100%;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
