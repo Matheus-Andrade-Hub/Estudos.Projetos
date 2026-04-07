@@ -42,7 +42,7 @@ header > h1 {
     font-weight: bolder;
     font-family: var(--titulo);
     font-size: 1.4em;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 mark.marc01 {
@@ -59,7 +59,6 @@ header > p {
     font-family: var(--menu);
     font-variant: small-caps;
     margin-bottom: 50px;
-    font-size: 1.1em;
 }
 
 nav {
@@ -69,7 +68,11 @@ nav {
 }
 
 nav > a {
-    display: inline;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 10px;
     padding: 7px;
     font-family: var(--menu);
     font-weight: bolder;
@@ -99,7 +102,6 @@ main {
     height: 100%;
     margin: auto;
     padding-top: 30px;
-    padding-bottom: 30px;
 }
 
 .imagem {
@@ -132,16 +134,32 @@ img {
 p {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     overflow: hidden;
-    line-height: 2em;
 }
 
 footer {
-    background-color: rgba(0, 0, 0, 0.438);
     color: white;
-    height: 235px;
-    margin: auto;
-    padding-left: 10px;
-    width: 80%;
-    line-height: 80px;
-    margin-top: 50px;
+    padding: 20px;
+    background-color: #1111118a;
+}
+
+footer a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+    font-variant: small-caps;
+    color: #00ff00db;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer h3 {
+    color: rgb(247, 36, 21);
+    font-family: var(--nav);
+    font-variant: normal;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
 }

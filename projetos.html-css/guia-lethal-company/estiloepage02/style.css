@@ -71,7 +71,11 @@ nav {
 }
 
 nav > a {
-    display: inline;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 10px;
     padding: 7px;
     font-family: var(--menu);
     font-weight: bolder;
@@ -103,7 +107,6 @@ main {
     margin: auto;
     text-align: justify;
     padding: 10px;
-    margin-bottom: 55px;
 }
 
 /*Cards
@@ -152,10 +155,6 @@ main {
     overflow: hidden;
     overflow-wrap: break-word;
     overflow-y:scroll;
-}
-
-p {
-    font-size: 1.3em;
 }
 
 .borda-vermelha {
@@ -222,13 +221,30 @@ p {
     margin-top: 40px;
 }
 
-footer {
-    background-color: rgba(0, 0, 0, 0.438);
+footer{
     color: white;
-    height: 235px;
-    margin: auto;
-    padding-left: 10px;
-    width: 80%;
-    line-height: 80px;
-    margin-top: 50px;
+    padding: 20px;
+    background-color: #1111118a;
+}
+
+footer a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+    font-variant: small-caps;
+    color: #00ff00db;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer h3 {
+    color: rgb(247, 36, 21);
+    font-family: var(--nav);
+    font-variant: normal;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
 }
