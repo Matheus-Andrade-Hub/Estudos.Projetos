@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    position: relative;
+    background-color: rgb(37, 5, 66);
+}
+
+main {
+    width: 300px;
+    height: 650px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+section > h2 {
+    padding: 10px;
+    text-align: center;
+}
+
+section > p {
+    text-align: justify;
+    padding: 10px;
+}
+
+#foto {
+    width: 100%;
+    height: 270px;
+    overflow: hidden;
+    border-radius: 20px 20px 0px 0px;
+    background-image: url(../imagens/tecnologia.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+input {
+    height: 35px;
+    width: 82%;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    padding-left: 8px;
+    margin-top: 5px;
+    background-color: rgb(150, 57, 154);
+    border: 1px solid black;
+}
+
+input:focus {
+    outline: none
+}
+
+input:hover {
+    background-color: white;
+}
+
+input::placeholder {
+    color: rgb(6, 6, 6);
+}
+
+#form01 {
+    background-color: rgb(4, 51, 100);
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+#form02 {
+    background-color: rgb(4, 51, 100);
+    margin: auto;
+    width: 90%;
+    border-radius: 10px;
+    color: white;
+}
+
+#form03 {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.log {
+    width: 100%;
+    height: 50px;
+    font-size: 1.1em;
+    color: rgb(0, 241, 173);
+}
+
+.log:hover {
+    background-color: rgb(245, 97, 250);
+    cursor: pointer;
+    color: white;
+}
+
+#recuperaçao {
+    color: rgb(150, 57, 154);
+    background-color: white;
+}
+
+#recuperaçao:hover {
+    background-color: rgb(245, 97, 250);
+    color: white;
+    cursor: pointer;
+}
+
+span {
+    margin-left: 5px;
+    
+}
+

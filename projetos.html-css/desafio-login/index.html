@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tela de login</title>
+    <link rel="stylesheet" href="estilos/mobile.css">
+    <link rel="stylesheet" href="estilos/media-queries.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+</head>
+<body>
+    <main>
+        <div id="foto">
+
+        </div>
+        <section id="apresentaçao">
+            <h2>Login</h2>
+            <p>Seja bem vindo (a) novamente, faça o login para acessar sua conta e poder fazer as configurações do seu ambiente.</p>
+        </section>
+        <section id="formulario">
+            <div id="form01">
+                <form action="cadastro.js" method="post" autocomplete="on">
+                    <label for="login"><span class="material-symbols-outlined">person</span></label>
+                    <input type="text" name="" id="login" placeholder="Seu login" minlength="5" maxlength="30" autocomplete="username" required> <br>
+            </div>
+                <div id="form02">
+                    <label for="senha"><span class="material-symbols-outlined">key</span></label>
+                    <input type="password" name="" id="senha" placeholder="Sua senha" minlength="5" maxlength="12" autocomplete="current-password" required>
+                </div>
+                <div id="form03">
+                    <input class="log" type="submit" value="Entrar">
+                    <input id="recuperaçao" class="log" type="submit" value="Esqueci a senha"> 
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

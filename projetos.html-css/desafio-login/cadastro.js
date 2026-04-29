@@ -1,0 +1,1 @@
+console.log ("Este site nao possui banco de dados pis e apenas um estudo referente a Media-Querie.")

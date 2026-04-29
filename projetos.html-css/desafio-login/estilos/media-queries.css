@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    position: relative;
+    background-color: rgb(37, 5, 66);
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    main {
+        width: 80vw;
+        height: 450px;
+    }
+
+    #foto {
+        height: 270px;
+        overflow: hidden;
+        border-radius: 20px 0px 0px 20px;
+        background-image: url(../imagens/tecnologia.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    section {
+        float: right;
+        width: 55vw;
+    }
+
+    input {
+        height: 35px;
+        width: 87%;
+        border-radius: 10px;
+        margin-bottom: 5px;
+        padding-left: 8px;
+        margin-top: 5px;
+        background-color: rgb(150, 57, 154);
+        border: 1px solid black;
+    }
+
+    #formulario {
+        margin-top: 50px;
+    }
+
+    #apresentaçao {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1150px) {
+    main {
+        width: 80vw;
+        height: 550px;
+    }
+
+    #foto {
+        float: right;
+        width: 30%;
+        height: 100%;
+        border-radius: 0px 20px 20px 0px;
+    }
+
+    section {
+        float: left;
+        width: 70%;
+    }
+
+    #apresentaçao {
+        padding-top: 60px;
+    }
+
+    #formulario {
+        padding-top: 120px;
+    }
+
+    input {
+        height: 35px;
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 1151px) {
+    main {
+        width: 80vw;
+        height: 550px;
+    }
+
+    #foto {
+        float: left;
+        height: 100%;
+        width: 30%;
+        border-radius: 20px 0px 0px 20px;
+    }
+
+    section {
+        float: right;
+        width: 66%;
+    }
+
+    #apresentaçao {
+        padding-top: 80px;
+    }
+
+    #formulario {
+        padding-top: 110px;
+    }
+
+    input {
+        width: 92%;
+    }
+}
