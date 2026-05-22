@@ -152,7 +152,7 @@ article > h2 {
     display: flex;
     flex-flow: row wrap;
     justify-content: start;
-    gap: 90px;
+    gap: 30px;
     line-height: 2.0em;
 }
 
@@ -184,4 +184,10 @@ article > h2 {
 
 a, :hover {
     transition: background 0.3s;
+}
+
+.separaçao {
+    display: flex;
+    width: 435px;
+    justify-content: space-between;
 }
