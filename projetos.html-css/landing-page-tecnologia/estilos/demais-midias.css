@@ -1,3 +1,148 @@
-@media screen and(min-width: 580px) {
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (min-width: 1200px) {
+    header {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+    }
+
+    .logo-link {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .header-links {
+        width: 100px;
+        height: 43px;
+        border-radius: 10px;
+        align-items: center;
+        margin-right: 7px;
+    }
+
+    hr {
+        display: block;
+        margin-top: 10px;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    .apresentação {
+        display: flex;
+        justify-content: space-between;
+        flex-flow: row-reverse nowrap;
+    }
+
+    #text > a {
+        width: 50%;
+        margin-left: 0px;
+    }
+
+    #text > h1 {
+        text-align: left;
+        font-size: 3em;
+        margin-bottom: 10px;
+    }
+
+    #text > p {
+        text-align: left
+    }
+
+    #text {
+        margin-left: 80px;
+    }
+
+    .btn-container {
+        justify-content: flex-start;
+    }
+
+    h2 {
+        font-size: 1.7em;
+    }
+
+    .card {
+        display: flex;
+        flex-flow: row nowrap;
+        width: 400px;
+    }
+
+    .alinhamento-de-card {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-evenly;
+        margin-bottom: 60px;
+    }
+
+    .demais {
+        margin-top: 60px;
+    }
+
+    #notebook {
+        width: 600px;
+        height: 400px;
+        margin-right: 100px;
+    }
+
+    .total-footer {
+        display: flex;
+    }
+
+    .logo-footer {
+        display: flex;
+        align-items: center;
+        flex-flow: row wrap;
+        justify-content: center;
+        margin-right: 150px;
+    }
+
+    .footer-links {
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    .links {
+        display: flex;
+        flex-flow: column wrap;
+        margin-right: 70px;
+    }
+
+    .redes {
+        display: flex;
+        flex-flow: column nowrap;
+    }
+
+    .redes > a {
+        text-decoration: none;
+    }
+
+    .separaçao {
+        display: flex;
+        gap: 400px;
+        margin-right: 40px;
+    }
+
+    .demais {
+        line-height: 2em;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
 
 }

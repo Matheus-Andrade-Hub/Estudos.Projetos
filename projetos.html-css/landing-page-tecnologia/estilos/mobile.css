@@ -16,7 +16,6 @@ header {
     display: flex;
     padding: 10px;
     flex-flow: column wrap;
-
 }
 
 .logo {
@@ -37,16 +36,18 @@ header {
 
 .header-links {
     text-decoration: none;
-    background-color: #6b18f1;
-    color: white;
+    color: rgb(0, 0, 0);
     margin-top: 10px;
     padding: 10px;
-    border: 1px solid black;
 }
 
 .header-links:hover {
     background-color: #01286d;
     color: white;
+}
+
+hr {
+    display: none;
 }
 
 main {
@@ -155,47 +156,45 @@ article > h2 {
     height: 80px;
 }
 
-.demais {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: start;
-    gap: 20px;
-    line-height: 2.0em;
-}
+@media screen and (max-width: 576px) {
+        .demais {
+        line-height: 2.0em;
+    }
 
-.logo-footer {
-    display: flex;
-    align-items: center;
-    flex-flow: row wrap;
-    justify-content: center;
-}
+    .logo-footer {
+        display: flex;
+        align-items: center;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
 
-.footer-links {
-    display: flex;
-    flex-flow: column wrap;
-}
+    .footer-links {
+        display: flex;
+        flex-flow: column wrap;
+    }
 
-.links {
-    display: flex;
-    flex-flow: column wrap;
-}
+    .links {
+        display: flex;
+        flex-flow: column wrap;
+    }
 
-.redes {
-    display: flex;
-    flex-flow: column nowrap;
-}
+    .redes {
+        display: flex;
+        flex-flow: column nowrap;
+    }
 
-.redes > a {
-    text-decoration: none;
-}
+    .redes > a {
+        text-decoration: none;
+    }
 
-a, :hover {
-    transition: background 0.3s;
-}
+    a, :hover {
+        transition: background 0.3s;
+    }
 
-.separaçao {
-    display: flex;
-    gap: 90px;
-    justify-content: center;
-    margin-left: 55px;
+    .separaçao {
+        display: flex;
+        gap: 90px;
+        justify-content: center;
+        margin-left: 55px;
+    }
 }
