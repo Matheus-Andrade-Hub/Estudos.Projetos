@@ -48,12 +48,12 @@ header > h1 {
 
 
 mark.marc01 {
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(224, 16, 16, 0);
     color: yellow;
 }
 
 mark.marc02 {
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(222, 137, 137, 0);
     color: rgb(255, 0, 0);;
 }
 
@@ -66,17 +66,12 @@ header > p {
 }
 
 nav {
-    text-align: left;
+    text-align: center;
     padding-bottom: 15px;
-    margin-left: 7%;
 }
 
 nav > a {
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
     line-height: 3em;
-    gap: 10px;
     padding-bottom: 10px;
     padding: 7px;
     font-family: var(--menu);
@@ -99,34 +94,17 @@ nav > a:hover {
 main {
     background-image: url(../imagens/imagens-home/mansion.webp);
     background-attachment: fixed;
-    background-size: cover;
+    background-size:cover;
     background-position: right center;
     background-color: rgb(255, 255, 255);
-    position: relative; 
     max-width: 900px;
     min-width: 320px;   
     height: 100%;
     margin: auto;
     text-align: justify;
     padding: 10px;
+    border-radius: 10px;
 }
-
-/*Cards
-    Nivel de poder
-    Tier de Perigo
-    Hits para matar
-    Dano
-    Duraçao de stun
-*/
-
-/*Faltou:
-    STomie
-    Cmosca do mordomo
-    SRobo
-    BBarbeiro
-    Dromaning
-
-*/
 
 .card {
     margin: 30px auto;
@@ -219,7 +197,7 @@ main {
     width: 340px;
     overflow: hidden;
     margin: auto;
-    margin-bottom: 100px;
+    margin-bottom: 40px;
     margin-top: 40px;
 }
 
@@ -234,6 +212,7 @@ footer a {
     font-variant: small-caps;
     color: #00ff00db;
     text-decoration: none;
+    line-height: 1.5em;
 }
 
 footer a:hover {

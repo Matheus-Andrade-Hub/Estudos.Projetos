@@ -48,12 +48,12 @@ header > h1 {
 }
 
 mark.marc01 {
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
     color: yellow;
 }
 
 mark.marc02 {
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
     color: rgb(255, 0, 0);;
 }
 
@@ -65,9 +65,8 @@ header > p {
 }
 
 nav {
-    text-align: left;
+    text-align: center;
     padding-bottom: 15px;
-    margin-left: 7%;
 }
 
 nav > a {
@@ -136,6 +135,14 @@ main > picture > img {
     max-width: 1200px;
 }
 
+main > section > h2 {
+    text-align: center;
+}
+
+main > section > p {
+    line-height: 2em;
+}
+
 footer {
     color: white;
     padding: 20px;
@@ -147,6 +154,7 @@ footer a {
     font-variant: small-caps;
     color: #00ff00db;
     text-decoration: none;
+    line-height: 1.5em;
 }
 
 footer a:hover {

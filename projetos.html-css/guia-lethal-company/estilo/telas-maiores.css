@@ -1,0 +1,13 @@
+@media screen and (min-width: 760px) {
+    section > h2 {
+        width: 70%;
+        margin-left: 13%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    section > h2 {
+        width: 60%;
+        margin-left: 19%;
+    }
+}
