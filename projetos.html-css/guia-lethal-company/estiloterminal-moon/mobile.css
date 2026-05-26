@@ -67,7 +67,7 @@ article > div {
 }
 
 img {
-    object-fit: cover;
+    object-fit: contain;
     width: 700px;
     height: 400px;
     max-width: 100%;
