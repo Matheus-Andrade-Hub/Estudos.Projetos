@@ -1,0 +1,236 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+
+:root {
+    --titulo: "Press Start 2P", arial, helvetica, sans-serif;
+    --menu: "Orbitron", arial, helvetica, sans-serif;
+    --nav: "VT323", arial, helvetica, sans-serif;
+}
+
+html, body {
+    height: 100vh;
+    width: 100%;
+
+    background-color: rgb(0, 0, 0);
+    background-image: url(../imagens/imagens-home/pexels-manoah-ruiz-rodriguez-696984157-18030913.jpg);
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url(../imagens/imagens-home/pexels-manoah-ruiz-rodriguez-696984157-18030913.jpg);
+    background-attachment:fixed;
+    background-size: cover;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+header > h1 {
+    color: rgb(255, 0, 0);
+    font-weight: bolder;
+    font-family: var(--titulo);
+    font-size: 1em;
+    line-height: 3em;
+    padding-bottom: 10px;
+}
+
+mark.marc01 {
+    background-color: rgba(0, 0, 0, 0);
+    color: yellow;
+}
+
+mark.marc02 {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 0, 0);;
+}
+
+header > p {
+    font-family: var(--menu);
+    font-variant: small-caps;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+nav {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+nav > a {
+    flex-wrap: wrap;
+    justify-content: center;
+    line-height: 3em;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 10px;
+    padding: 7px;
+    font-family: var(--menu);
+    font-weight: bolder;
+    font-size: 0.7em;
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+
+nav > a:hover {
+    font-weight: bolder;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.2s;
+    color: rgb(251, 6, 6);
+    background-color: rgba(112, 0, 0, 0.749);
+} 
+
+main {
+    background-color: #040f00;
+    padding: 10px;
+}
+
+.container-principal {
+    display: flex;
+    gap: 10px;
+    flex-flow: column nowrap;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container-lua {
+    margin-top: 50px;
+    padding: 15px;
+    border: 2px solid  #00ff006c;
+}
+
+.container-lua > p {
+    margin-bottom: 15px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.dados-globais {
+    border: 2px solid  #00ff006c;
+    padding: 15px;
+}
+
+.dados {
+    padding: 10px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    line-height: 2em;
+
+}
+
+.dados-container01 > p {
+    color: #00ff00db;
+}
+
+.descriçao {
+    padding: 15px;
+    line-height: 2em;
+    border: 2px solid  #00ff006c;
+}
+
+.descriçao > p {
+    text-align: justify;
+    padding: 20px;
+}
+
+.loot-potencial {
+    border: 2px solid  #00ff006c;
+    padding: 15px;
+}
+
+.loot-potencial > h3 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.loot-potencial > p {
+    line-height: 2em;
+    padding: 10px;
+    text-align: justify;
+}
+
+.criaturas-comuns-global {
+    border: 2px solid  #00ff006c;
+    padding: 15px;
+}
+
+.criaturas-comuns-global > h2 {
+    margin-bottom: 20px;
+}
+
+.criaturas-comuns {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row nowrap;
+}
+
+
+
+.imagens-criaturas {
+    border: 1px solid red;
+    width: 100px;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.nome-criaturas {
+    border: 1px solid purple;
+    line-height: 6em;
+}
+
+.observaçoes-da-companhia {
+    border: 2px solid  #00ff006c;
+    padding: 15px;
+}
+
+.observaçoes-da-companhia > p {
+    padding: 10px;
+    text-align: justify;
+    line-height: 2em;
+}
+
+.espaçamento {
+    margin-bottom: 50px;
+}
+
+h1, h2 {
+    color:#00ff00db ;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+p {
+    color: white;
+}
+
+.red {
+    margin-left: 5px;
+    color: red;
+}
+
+hr {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin: auto;
+    width: 350px;
+}
