@@ -1,0 +1,13 @@
+@media screen and (min-width: 992px) {
+    main {
+        max-width: 800px;
+    }
+
+    article {
+        margin: 0px 20px;
+    }
+
+    .btn {
+        margin-top: 30px;
+    }
+}
