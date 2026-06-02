@@ -133,13 +133,16 @@ img {
     padding: 10px;
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-around;
+    justify-content: space-between;
     line-height: 2em;
-
 }
 
 .dados-container01 > p {
     color: #00ff00db;
+}
+
+.dados-container02 {
+    max-width: 280px;
 }
 
 .descriçao {
