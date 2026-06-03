@@ -120,6 +120,11 @@ main {
     margin-bottom: 15px;
 }
 
+.container-lua > h1 {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
 img {
     max-width: 100%;
 }
@@ -174,27 +179,33 @@ img {
 }
 
 .criaturas-comuns-global > h2 {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .criaturas-comuns {
     display: flex;
     justify-content: space-around;
     flex-flow: row nowrap;
+    
 }
 
 
 
 .imagens-criaturas {
-    border: 1px solid red;
     width: 100px;
     display: flex;
     flex-flow: column nowrap;
+    gap: 25px;
 }
 
 .nome-criaturas {
-    border: 1px solid purple;
-    line-height: 6em;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
 }
 
 .observaçoes-da-companhia {
