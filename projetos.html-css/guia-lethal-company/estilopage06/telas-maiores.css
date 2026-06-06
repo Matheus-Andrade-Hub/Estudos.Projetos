@@ -1,0 +1,95 @@
+@media screen and (min-width: 992px) {
+    main {
+        max-width: 80%;
+        margin: auto;
+    }
+
+    .container-lua {
+
+    }
+
+    .container-lua > img {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .dados-globais > h2 {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .dados {
+        justify-content: space-around;
+    }
+
+    .descriçao > h2 {
+        text-align: center;
+    }
+
+    .descriçao > p {
+        padding: 30px;
+        text-align: center;
+    }
+
+    .container-loot-criaturas {
+        display: flex;
+        flex-flow: row nowrap;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .loot-potencial {
+            width: 30%;
+    }
+
+    .criaturas-comuns {
+        display: flex;
+        flex-flow: column nowrap;
+        text-align: center;
+    }
+
+    .nome-criaturas {
+        display: flex;
+        flex-flow: row nowrap;
+    }
+
+    .imagens-criaturas {
+        width: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    .imagens-criaturas > img{
+        overflow: hidden;
+        width: 15%;
+        height: auto;
+        margin: auto;
+    }
+
+    .nome-criaturas {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+    }
+
+    .criaturas-comuns-global {
+        width: 70%;
+    }
+
+    .criaturas-comuns-global  > h2 {
+        margin: 8px;
+        padding: 0px;
+    }
+
+    .observaçoes-da-companhia  > h2 {
+        text-align: center;
+    }
+
+    .observaçoes-da-companhia  >  p{
+        text-align: center;
+    }
+
+}
