@@ -13,10 +13,11 @@
     --nav: "VT323", arial, helvetica, sans-serif;
 }
 
+/*#00ff00db*/
+
 html, body {
     height: 100vh;
     width: 100%;
-
     background-color: rgb(0, 0, 0);
     background-image: url(../imagens/imagens-home/pexels-manoah-ruiz-rodriguez-696984157-18030913.jpg);
     background-attachment:fixed;
@@ -60,6 +61,7 @@ mark.marc02 {
 }
 
 header > p {
+    color: white;
     font-family: var(--menu);
     font-variant: small-caps;
     margin-top: 10px;
@@ -97,155 +99,116 @@ nav > a:hover {
 } 
 
 main {
+    color: white;
     background-color: #040f00;
-    padding: 10px;
     font-family: var(--nav);
     font-size: 1.3em;
 }
 
-.container-principal {
-    display: flex;
-    gap: 10px;
-    flex-flow: column nowrap;
+section {
     padding: 10px;
 }
 
-.container-lua {
-    margin-top: 50px;
-    padding: 15px;
-    border: 2px solid  #00ff006c;
-}
-
-.container-lua > p {
-    margin-bottom: 15px;
-}
-
-.container-lua > h1 {
-    padding: 10px;
-    margin-bottom: 20px;
-}
-
-img {
-    max-width: 100%;
-}
-
-.dados-globais {
-    border: 2px solid  #00ff006c;
-    padding: 15px;
-}
-
-.dados {
+.banco-climatico {
     padding: 10px;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
-    line-height: 2em;
 }
 
-.dados-container01 > p {
-    color: #00ff00db;
-}
-
-.descriçao {
-    padding: 15px;
-    line-height: 2em;
-    border: 2px solid  #00ff006c;
-}
-
-.descriçao > p {
-    text-align: justify;
-    padding: 20px;
-}
-
-.container-loot-criaturas {
-    display: flex;
-    flex-flow: column nowrap;
-    gap: 10px;
-}
-
-.loot-potencial {
-    border: 2px solid  #00ff006c;
-    padding: 15px;
-}
-
-.loot-potencial > h3 {
-    margin-top: 15px;
-    margin-bottom: 10px;
-}
-
-.loot-potencial > p {
-    line-height: 2em;
-    padding: 10px;
-    text-align: justify;
-}
-
-.criaturas-comuns-global {
-    border: 2px solid  #00ff006c;
-    padding: 15px;
-}
-
-.criaturas-comuns-global > h2 {
-    margin-bottom: 30px;
+.banco-climatico > .text {
     margin-top: 30px;
 }
 
-.criaturas-comuns {
-    display: flex;
-    justify-content: space-around;
-    flex-flow: row nowrap;
-}
-
-.imagens-criaturas {
-    width: 100px;
-    display: flex;
-    flex-flow: column nowrap;
-    gap: 25px;
-}
-
-.nome-criaturas {
-    padding: 10px;
+.banco-climatico > div > h2 {
     margin-bottom: 10px;
-    margin-top: 5px;
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: space-between;
+} 
+
+.dados-climaticos > h2 {
+    text-align: center;
+    margin: 30px 0px 30px 0px;
 }
 
-.observaçoes-da-companhia {
-    border: 2px solid  #00ff006c;
-    padding: 15px;
+.dados-climaticos > h3 {
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 
-.observaçoes-da-companhia > p {
-    padding: 10px;
+.dados-climaticos > p {
+    line-height: 1.5em;
     text-align: justify;
-    line-height: 2em;
+    margin-bottom: 15px;
+}
+    
+.dados-climaticos > ul > li {
+    list-style:inside;
+    line-height: 1.5em;
 }
 
-.espaçamento {
-    margin-bottom: 50px;
-}
-
-h1, h2 {
-    color:#00ff00db ;
+ul {
+    padding: 10px;
     margin-bottom: 10px;
-    margin-top: 10px;
 }
 
-p {
-    color: white;
+.container-clima {
+    object-fit: contain;
+    padding: 10px;
 }
 
-.red {
-    margin-left: 5px;
-    color: red;
+.container-clima > img {
+    width: 100%;
+    border: 3px solid #310264db;
+    margin: 40px 0px 10px 0px;
+}
+
+.container-dados {
+    display: flex;
+    flex-flow: column-reverse nowrap;
+}
+
+.container-aviso {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.aviso {
+    padding: 10px;
+}
+
+.aviso > h3 {
+    margin-bottom: 15px;
+    
+}
+
+.aviso > p {
+    line-height: 1.5em;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.container-raridade {
+    padding: 10px;
+}
+
+.container-raridade > h3 {
+    margin-bottom: 15px;
+}
+
+h2, h3 , p, ul > li{
+    color: #00ff00db;
 }
 
 hr {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin: auto;
-    width: 350px;
+    border: none;
+    margin-bottom: 30px;
+    height: 2px;
+    background-color: #00ff00db;
+}
+
+.linha-final {
+    border: none;
+    height: 2px;
+    background-color: rgb(119, 0, 255);
 }
 
 footer {
