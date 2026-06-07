@@ -110,10 +110,8 @@ section {
 }
 
 .banco-climatico {
-    padding: 10px;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
+    padding: 30px;
+    text-align: center;
 }
 
 .banco-climatico > .text {
@@ -143,6 +141,10 @@ section {
 .dados-climaticos > ul > li {
     list-style:inside;
     line-height: 1.5em;
+}
+
+.dados-climaticos {
+    padding: 10px;
 }
 
 ul {
