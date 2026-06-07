@@ -1,0 +1,61 @@
+@media screen and (min-width: 992px) {
+    main {
+        width: 100%;
+    }
+    
+    .banco-climatico {
+        display: flex;
+        margin-bottom: 80px;
+        line-height: 2em;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+    }
+
+
+    .container-dados {
+        display: flex;
+        flex-flow: row nowrap;
+        gap: 10px;
+    }
+
+    .container-clima {
+        width: 150%;    
+        margin-bottom: 80px;
+    }
+
+    .container-clima > img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .dados-climaticos > h2 {
+        margin-top: 50px;
+        padding: 15px;
+    }
+
+    .container-aviso {
+        display: flex;
+        flex-flow: row nowrap;
+        gap: 10px;
+        padding-bottom: 80px;
+    }
+
+    .aviso {
+        padding: 20px;
+        border: 1px solid #00ff00db;
+        width: 55%;
+    }
+
+    .container-raridade {
+        width: 45%;
+    }
+
+    #linha-companhia {
+        display: none;
+    }
+
+    #linha-raridade {
+        display: block;
+        margin-top: 80px;
+    }
+}

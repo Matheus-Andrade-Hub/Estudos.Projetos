@@ -159,7 +159,7 @@ ul {
 
 .container-clima > img {
     width: 100%;
-    border: 3px solid #310264db;
+    border: 3px solid #8e8002;
     margin: 40px 0px 10px 0px;
 }
 
@@ -211,6 +211,10 @@ hr {
     border: none;
     height: 2px;
     background-color: rgb(119, 0, 255);
+}
+
+#linha-raridade {
+    display: none;
 }
 
 footer {
