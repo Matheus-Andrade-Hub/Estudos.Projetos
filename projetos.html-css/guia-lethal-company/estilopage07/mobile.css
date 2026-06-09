@@ -210,7 +210,7 @@ hr {
 .linha-final {
     border: none;
     height: 2px;
-    background-color: rgb(119, 0, 255);
+    background-color: #00ff00db;
 }
 
 #linha-raridade {
