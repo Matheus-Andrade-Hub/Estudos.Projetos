@@ -1,0 +1,185 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100vh;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color: #5fb9fabb;
+    padding: 25px 10px;
+}
+
+header > h2 {
+    text-align: center;
+}
+
+main {
+    background-color: lightgray;
+    display: grid;
+    grid-template: repeat(2, auto) / 1fr 90vw 1fr;
+}
+
+#ficha > article > h2 {
+    text-align: center;
+    margin: 20px 0px;
+}
+
+#ficha > article > p {
+    text-align: justify;
+    line-height: 1.5em;
+    text-indent: 1.5em;
+    margin-bottom: 15px;
+}
+
+.redes {
+    margin: auto;
+    width: 350px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+article {
+    background-color: white;
+    padding: 15px;
+}
+
+article > h2 {
+    color: #5fb9fa;
+}
+
+#skills {
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
+
+#skills > h2 {
+    margin-top: 30px;
+}
+
+#ficha {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+#ficha > article > p {
+    line-height: 1.8em;
+}
+
+article {
+    padding: 30px;
+}
+
+#portifolio {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+.foto {
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.foto > img {
+    object-position: center top;
+    padding: 5px;
+    width: 250px;
+    height: 250px;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #5fb9fa;
+}
+
+.social {
+    border-radius: 27%;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    transition: margin 0.3s;
+    transition: background 0.3s;
+}
+
+a {
+    height: 50px;
+}
+
+.redes > a > img:hover {
+    border-radius: 27%;
+    padding: 5px;
+    background-color: rgba(0, 140, 255, 0.573);
+    width: 115%;
+}
+
+.coluna {
+    display: flex;
+    flex-flow: column nowrap;
+    margin-bottom: 30px;
+}
+
+.habilidades {
+    display: flex;
+    flex-flow: row;
+    align-items: end;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.habilidades > .curso >  h3 {
+    line-height: 1.5em;
+}
+
+.curso {
+    margin-top: 20px;
+}
+
+.barra {
+    height: 6px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: gray;
+}
+
+.barra-azul {
+    height: 100%;
+    width: 10%;
+    border-radius: 10px;
+    background-color: #5fb9fabb;
+}
+
+#formaçao {
+    margin-bottom: 70px;
+    padding: 20px;
+    padding-bottom: 30px;
+}
+
+.dados-formaçao {
+    margin-top: 15px;
+    padding: 10px;
+    line-height: 1.5em;
+    border-radius: 10px;
+    border-left: 5px solid #006cba;
+    transition: border 0.5s;
+    cursor: pointer;
+    background-color: rgba(211, 211, 211, 0.507);
+}
+
+.dados-formaçao:hover {
+    border-left: 15px solid hsl(111, 100%, 64%);
+}
+
+.dados-formaçao > .nome-curso > p {
+    color: #5fb9fa;
+}
+
+footer {
+    text-align: center;
+    background-color: #5fb9fabb;
+    padding: 10px 10px;
+}
