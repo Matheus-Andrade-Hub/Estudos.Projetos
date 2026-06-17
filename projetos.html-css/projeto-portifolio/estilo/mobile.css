@@ -167,15 +167,81 @@ a {
     border-left: 5px solid #006cba;
     transition: border 0.5s;
     cursor: pointer;
-    background-color: rgba(211, 211, 211, 0.507);
+    background-color: #d3d3d381;
 }
 
 .dados-formaçao:hover {
-    border-left: 15px solid hsl(111, 100%, 64%);
+    border-left: 15px solid #63ff47;
+}
+
+#amarelo:hover {
+    border-left: 15px solid yellow;
 }
 
 .dados-formaçao > .nome-curso > p {
     color: #5fb9fa;
+}
+
+#projetos > h2 {
+    margin-bottom: 30px;
+}
+
+.dados-projetos {
+    margin-bottom: 70px;
+    border-radius: 10px;
+    border-left: 5px solid #006cba;
+    transition: border 0.5s;
+}
+
+.dados-projetos:hover {
+    border-left: 15px solid #63ff47;
+}
+
+.projeto-container {
+    background-color: #d3d3d381;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.nome-projeto > p{
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+details {
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+.imagem-projeto {
+    height: 200px;
+}
+
+.imagem-projeto > a {
+    width: 100px;
+    height: 100px;
+}
+
+.imagem-projeto > a > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.data-projeto {
+    margin: 15px 0px;
+}
+
+.nome-projeto > h3 {
+    margin: 5px 0px;
+    margin-bottom: 10px;
+}
+
+.nome-projeto > details {
+    margin: 10px 0px;
 }
 
 footer {
