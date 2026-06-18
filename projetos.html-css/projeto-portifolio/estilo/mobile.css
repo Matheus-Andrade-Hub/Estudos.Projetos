@@ -194,25 +194,30 @@ a {
 }
 
 .dados-projetos:hover {
-    border-left: 15px solid #63ff47;
+    border-left: 15px solid #5fb9fabb;
 }
 
 .projeto-container {
     background-color: #d3d3d381;
     padding: 15px;
-    border-radius: 10px;
+    border-radius: 0px 10px 10px 0px;
     display: flex;
     flex-flow: column nowrap;
 }
 
 .nome-projeto > p{
     text-align: justify;
-    line-height: 1.5em;
+    line-height: 2em;
+    padding: 7px;
 }
 
 details {
     text-align: justify;
-    line-height: 1.5em;
+    line-height: 2em;
+}
+
+details > p {
+    padding: 7px;
 }
 
 .imagem-projeto {
