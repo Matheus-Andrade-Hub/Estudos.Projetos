@@ -9,17 +9,46 @@ body {
     background-color: var(--fundo);
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@400;600&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
 
-@import url('https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&display=swap');
 
 :root {
     --fundo: #fffdf5;
     --fundo-main:#fff8e8;
     --bordas: #f0ddb1;
-    --fundo-destaque: #f6c94c;
+    --fundo-destaque: #fdd874;
     --sombra: #e7a919;
-    
-    --fonte-zilla: "zilla slab", Arial, Helvetica, sans-serif;
-    --fonte-satoshi: "satoshi", Arial, Helvetica, sans-serif;
+}
+
+main {
+    display: grid;
+    grid-template: auto / auto 90vw auto;
+    padding: 10px;
+}
+
+main > * {
+    grid-area: auto / 2 / auto / 3;
+}
+
+section{
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 40px;
+}
+
+article {
+    border-radius: 10px;
+    padding: 15px;
+    background-color: var(--fundo-main);
+}
+
+
+img {
+    display: none;
+    width: 100px;
+    height: 100px;
 }
