@@ -184,7 +184,6 @@ hr {
     line-height: 1.5em;
     display: flex;
     flex-flow: row nowrap;
-    justify-content: flex-end;
     align-items: flex-end;
 }
 
@@ -249,4 +248,50 @@ hr {
     margin-left: 16px;
     border-radius: 10px;
     object-fit: cover;
+}
+
+.agenda-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.agenda > h2 > img {
+    width: 32px;
+    height: 32px;
+}
+
+.lives {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--fundo-destaque);
+}
+
+.lives > p {
+    margin-right: 10px;
+}
+
+.placa-aviso > img{
+    width: 135px;
+    height: 165px;
+    max-width: 100%;
+}
+
+.clipes > h2 > img{
+    width: 32px;
+    height: 32px;
+}
+
+footer {
+    padding-top: 10px;
+    height: 55px;
+    background-color: var(--sombra);
+}
+
+footer > p {
+    text-align: center;
 }
