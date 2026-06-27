@@ -194,8 +194,9 @@ hr {
 }
 
 .filho-apresentaçao > img {
-    width: 165px;
-    height: 115px;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
 }
 
 #p-apresentaçao {
@@ -221,8 +222,8 @@ hr {
 }
 
 .img-sobre-mim > img {
-    width: 165px;
-    height: 165px;
+    width: 145px;
+    height: 145px;
 }
 
 .jogos-favoritos > h2 > img {
