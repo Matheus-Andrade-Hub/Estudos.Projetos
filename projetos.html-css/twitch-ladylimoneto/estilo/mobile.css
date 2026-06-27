@@ -56,8 +56,8 @@ hr {
     margin-bottom: 15px;
 }
 
-.ficha-container, .principal-container{
-    border: 2px solid var(--bordas)
+.ficha-container, .principal-container, .principal-container01{
+    border: 2px solid var(--bordas);
 }
 
 .ficha-info > img {
@@ -166,4 +166,60 @@ hr {
     width: 24px;
     height: 24px;
     margin-right: 15px;
+} 
+
+.ficha-container-agradecimento01 {
+    display: none;
+}
+
+.agradecimento01 {
+    display: none;
+}
+
+.principal-container01 {
+    margin-top: 40px;
+}
+
+.apresentaçao {
+    line-height: 1.5em;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.apresentaçao > .filho-apresentaçao > h1 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.filho-apresentaçao > img {
+    width: 165px;
+    height: 115px;
+}
+
+#p-apresentaçao {
+    margin-bottom: 20px;
+}
+
+.margem {
+    margin-left: 25px;
+}
+
+.sobre-mim-container {
+    text-align: justify;
+    line-height: 1.5em;
+    display: flex;
+    align-items: center;
+}
+
+.sobre-mim > h2 > img {
+    width: 32px;
+    height: 32px;
+    margin-right: 5px;
+}
+
+.img-sobre-mim > img {
+    width: 165px;
+    height: 165px;
 }
