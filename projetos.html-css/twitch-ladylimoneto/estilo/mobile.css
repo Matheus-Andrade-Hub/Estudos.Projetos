@@ -122,6 +122,7 @@ hr {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
+    max-width: 100%;
 }
 
 .info-live {
@@ -134,6 +135,7 @@ hr {
 .info-live > img {
     width: 134px;
     height: 134px;
+    max-width: 100%;
 }
 
 .redes-sociais > h2 {
