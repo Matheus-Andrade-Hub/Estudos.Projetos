@@ -231,7 +231,7 @@ hr {
 
 .jogos {
     display: flex;
-    width: 100%;
+    max-width: 100%;
     overflow-x: auto;
     overflow-y: hidden;
     scroll-behavior: smooth;
@@ -244,6 +244,7 @@ hr {
 .jogos > img {
     width: 210px ;
     height: 290px;
+    max-width: 100%;
     margin-right: 16px;
     margin-left: 16px;
     border-radius: 10px;
