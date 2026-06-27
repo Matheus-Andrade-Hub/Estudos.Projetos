@@ -79,6 +79,7 @@ hr {
     width: 300px;
     text-align: center;
     margin: auto;
+    line-height: 1.5em;
     margin-bottom: 20px;
     
 }
@@ -181,7 +182,7 @@ hr {
 }
 
 .apresentaçao {
-    line-height: 1.5em;
+    line-height: 2em;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
@@ -209,7 +210,7 @@ hr {
 
 .sobre-mim-container {
     text-align: justify;
-    line-height: 1.5em;
+    line-height: 2em;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -275,12 +276,19 @@ hr {
 }
 
 .lives > p {
-    margin-right: 10px;
+    margin-right: 5px;
+    text-align: justify;
+    line-height: 2em;
 }
 
-.placa-aviso > img{
-    width: 135px;
-    height: 165px;
+.placa-aviso {
+    flex-shrink: 0;
+}
+
+.placa-aviso > img {
+    width: 165px;
+    height: 195px;
+    object-fit: cover;
     max-width: 100%;
 }
 
