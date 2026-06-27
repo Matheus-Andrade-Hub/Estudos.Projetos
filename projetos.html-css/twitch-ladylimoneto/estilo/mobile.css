@@ -223,3 +223,29 @@ hr {
     width: 165px;
     height: 165px;
 }
+
+.jogos-favoritos > h2 > img {
+    width: 32px;
+    height: 32px;
+}
+
+.jogos {
+    display: flex;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+}
+
+.jogos::-webkit-scrollbar {
+    display: none;
+}
+
+.jogos > img {
+    width: 210px ;
+    height: 290px;
+    margin-right: 16px;
+    margin-left: 16px;
+    border-radius: 10px;
+    object-fit: cover;
+}
