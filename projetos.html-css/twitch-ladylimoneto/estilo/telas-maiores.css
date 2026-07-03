@@ -1,0 +1,33 @@
+@media screen and (min-width: 992px) {
+    main {
+        display: grid;
+        grid-template: auto / 1fr 30vw 64vw 1fr ;
+        gap: 15px;
+    }
+
+    #ficha {
+        grid-column: 2;
+    }
+
+    #principal {
+        grid-column: 3;
+    }
+
+    .ficha-info > img {
+        max-width: 100%;
+    }
+
+    .ficha-info > p {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .btn-seguir {
+        gap: 35px;
+        justify-content: space-between;
+    }
+
+    .redes {
+        padding: 5px;
+    }
+}
