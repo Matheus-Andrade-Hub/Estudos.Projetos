@@ -136,6 +136,16 @@ hr {
     color: #9146FF;
 }
 
+.meta > img {
+    width: 32px;
+    height: 32px;
+    margin-right: 5px;
+}
+
+.meta > h2 {
+    display: inline;
+}
+
 .info-container {
     display: flex;
     flex-flow: row nowrap;
@@ -154,6 +164,7 @@ hr {
     width: 134px;
     height: 134px;
     max-width: 100%;
+    object-fit: cover;
 }
 
 .redes-sociais > h2 {
@@ -275,7 +286,6 @@ hr {
     margin-right: 16px;
     margin-left: 16px;
     border-radius: 10px;
-    object-fit: cover;
 }
 
 .agenda-container {

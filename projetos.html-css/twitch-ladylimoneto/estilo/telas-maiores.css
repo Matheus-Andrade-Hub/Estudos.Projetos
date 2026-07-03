@@ -1,7 +1,7 @@
 @media screen and (min-width: 992px) {
     main {
         display: grid;
-        grid-template: auto / 1fr 30vw 64vw 1fr ;
+        grid-template: auto / 1fr 30vw 62vw 1fr ;
         gap: 15px;
     }
 
@@ -15,6 +15,7 @@
 
     .ficha-info > img {
         max-width: 100%;
+        
     }
 
     .ficha-info > p {
@@ -29,5 +30,27 @@
 
     .redes {
         padding: 5px;
+    }
+
+    .principal-container01 {
+        margin-top: 0px;
+    }
+
+    .filho-apresentaçao > img {
+        width: 215px;
+        height: 215px;
+    }
+
+    .img-sobre-mim > img {
+        width: 215px;
+        height: 215px;
+    }
+
+    .agenda-container {
+        justify-content: space-around;
+    }
+
+    .lives {
+        width: 300px;
     }
 }
