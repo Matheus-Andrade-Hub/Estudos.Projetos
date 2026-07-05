@@ -142,8 +142,9 @@ hr {
     margin-right: 5px;
 }
 
-.meta > h2 {
-    display: inline;
+.meta {
+    display: flex;
+    gap: 5px;
 }
 
 .info-container {
