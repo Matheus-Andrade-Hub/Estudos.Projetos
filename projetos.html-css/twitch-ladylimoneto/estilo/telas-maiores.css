@@ -1,3 +1,51 @@
+@media screen and (min-width: 768px) {
+
+    #ficha {
+        margin-bottom: 40px;
+    }
+    
+    .ficha-info > img {
+        max-width: 100%;
+        
+    }
+
+    .ficha-info > p {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .btn-seguir {
+        margin-top: 40px;
+        justify-content: space-around;
+    }
+
+    .redes {
+        padding: 10px;
+    }
+
+    .principal-container01 {
+        margin-top: 0px;
+    }
+
+    .filho-apresentaçao > img {
+        width: 175px;
+        height: 175px;
+    }
+
+    .img-sobre-mim > img {
+        width: 175px;
+        height: 175px;
+    }
+
+    .agenda-container {
+        justify-content: space-around;
+    }
+
+    .lives {
+        width: 300px;
+    }
+}
+
 @media screen and (min-width: 992px) {
     main {
         display: grid;
@@ -30,6 +78,65 @@
 
     .redes {
         padding: 5px;
+    }
+
+    .principal-container01 {
+        margin-top: 0px;
+    }
+
+    .filho-apresentaçao > img {
+        width: 215px;
+        height: 215px;
+    }
+
+    .img-sobre-mim > img {
+        width: 215px;
+        height: 215px;
+    }
+
+    .agenda-container {
+        justify-content: space-around;
+    }
+
+    .lives {
+        width: 300px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    main {
+        display: grid;
+        grid-template: auto / 1fr 30vw 62vw 1fr ;
+        gap: 15px;
+    }
+
+    #ficha {
+        grid-column: 2;
+    }
+
+    #principal {
+        grid-column: 3;
+    }
+
+    .ficha-info > img {
+        max-width: 100%;
+    }
+
+    .ficha-info > p {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .btn-seguir {
+        justify-content: space-evenly;
+    }
+
+    .btn-seguir > a {
+        width: 130px;
+    }
+
+    .redes {
+        padding: 15px;
     }
 
     .principal-container01 {

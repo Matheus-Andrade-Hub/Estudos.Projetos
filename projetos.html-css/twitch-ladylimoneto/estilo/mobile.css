@@ -355,9 +355,12 @@ hr {
 footer {
     padding-top: 10px;
     height: 55px;
-    background-color: var(--sombra);
+    color: black;
+    margin-top: 15px;
+    background-color: var(--fundo-destaque);
 }
 
 footer > p {
     text-align: center;
+    font-family: var(--titulos);
 }
