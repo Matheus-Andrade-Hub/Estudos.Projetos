@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+html, body {
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
