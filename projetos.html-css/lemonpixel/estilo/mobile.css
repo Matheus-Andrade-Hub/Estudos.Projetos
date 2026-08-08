@@ -3,6 +3,7 @@
 html, body {
     width: 100%;
     height: 100vh;
+    background-color: #fff8e8;
     box-sizing: border-box;
 }
 
@@ -22,4 +23,155 @@ html, body {
     --cor-h2: #004466;
     --fonte-header: "Jersey 10", Arial, Helvetica,sans-serif;
     --fonte-destaque: "Pixelify Sans", Arial, Helvetica,sans-serif;
+}
+
+.cabeçalho {
+    display: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+header > a > img {
+    margin-right: 15px;
+}
+
+header > h1 {
+    margin-left: 18px;
+    color: #a8a802;
+}
+
+.apresentaçao {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 15px;
+}
+
+.apre-text > h1{
+    margin-bottom: 10px;
+    color: var(--cor-h2);
+}
+
+.apre-text h2 {
+    margin-bottom: 10px;
+}
+
+.apre-text > p {
+    line-height: 1.3em;
+    text-align: justify;
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+
+.apre-img > img {
+    width: 200px;
+    height: 200px;
+}
+
+.modelos-text > a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 30px;
+    background-color: purple;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+
+.modelos-text > a:hover {
+    background-color: var(--cor-h2);
+    color: #a8a802;
+}
+
+.modelos-text02 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#chaveiros {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 30px;
+    margin-bottom: 30px;
+    padding: 15px;
+}
+
+.chaveiro-area {
+    background-color: #f9d6b8;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.chaveiro-text {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 5px;
+}
+
+.chaveiro-text > a {
+    margin-bottom: 14px;
+    width: 60px;
+    text-decoration: none;
+    color: black;
+}
+
+.chaveiro-text > a:hover {
+    color: var(--cor-h2);
+}
+
+.organiz-chaveiro {
+    display: flex;
+    gap: 90px;
+    overflow-x: auto;
+    margin-bottom: 5px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.organiz-chaveiro > img {
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+}
+
+#interface {
+    max-width: 100%;
+    padding: 15px;
+    background-color: var(--cor-destaque);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+}
+
+.inter-org {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.inter-org > a  img {
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
 }
