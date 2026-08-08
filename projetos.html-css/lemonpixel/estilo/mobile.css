@@ -49,11 +49,12 @@ header > h1 {
 
 .apresentaçao {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: column nowrap;
     align-items: center;
     justify-content: space-between;
-    gap: 30px;
+    gap: 40px;
     padding: 15px;
+    text-align: center;
 }
 
 .apre-text > h1{
@@ -70,6 +71,7 @@ header > h1 {
     text-align: justify;
     margin-right: 50px;
     margin-bottom: 30px;
+    text-align: center;
 }
 
 .apre-img > img {
@@ -154,14 +156,15 @@ header > h1 {
 #interface {
     max-width: 100%;
     padding: 15px;
-    background-color: var(--cor-destaque);
+    background-color: #a8a802;
+    color: hsl(200, 96%, 19%);
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 30px;
+    height: 33px;
 }
 
 .inter-org {
