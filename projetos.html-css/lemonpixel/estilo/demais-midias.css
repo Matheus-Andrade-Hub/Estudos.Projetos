@@ -7,6 +7,10 @@
         display: none;
     }
 
+    hr {
+        display: block;
+    }
+
     .cabeçalho {
         display: block;
         display: flex;
@@ -66,6 +70,10 @@
 @media screen and (min-width: 1200px) {
     header {
         margin-left: 30px;
+    }
+
+    hr {
+        display: block;
     }
 
     #modelos {

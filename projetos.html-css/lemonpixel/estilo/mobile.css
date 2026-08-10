@@ -48,6 +48,10 @@ header > h1 {
     color: #a8a802;
 }
 
+hr {
+    display: none;
+}
+
 main {
     font-family: var(--fonte-header);
 }
