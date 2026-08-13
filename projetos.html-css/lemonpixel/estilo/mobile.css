@@ -45,7 +45,7 @@ header > a > img {
 
 header > h1 {
     margin-left: 18px;
-    color: #a8a802;
+    color: #f5de2e;
 }
 
 hr {
@@ -105,7 +105,7 @@ main {
 
 .modelos-text > a:hover {
     background-color: var(--cor-h2);
-    color: #a8a802;
+    color: #f5de2e;
 }
 
 .modelos-text02 {
@@ -167,7 +167,7 @@ main {
 #interface {
     max-width: 100%;
     padding: 15px;
-    background-color: #a8a802;
+    background-color: #f5de2e;
     color: hsl(200, 96%, 19%);
     display: flex;
     flex-flow: row nowrap;
