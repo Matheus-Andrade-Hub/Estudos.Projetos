@@ -59,10 +59,13 @@ header > h1 {
     color: #f5de2e;
 }
 
+hr {
+    display: none;
+}
+
 main {
     display: grid;
     grid-template: auto / auto 90vw auto;
-    height: 2700px;
 }
 
 section {
@@ -121,6 +124,7 @@ section {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
+    justify-items: center;
     gap: 100px;
     width: 390px;
     margin: auto;
@@ -134,6 +138,7 @@ section {
     border: 3px solid black;
     box-shadow: 1px 1px 10px;
     border-radius: 10px;
+    margin-top: 50px;
     margin-bottom: 50px;
     width: 170px;
     height: 210px;
@@ -153,7 +158,6 @@ section {
 
 .especialidades > p {
     line-height: 1.5em;
-
 }
 
 .info-chaveiros > h3 {
@@ -169,6 +173,11 @@ section {
 
 #final {
     padding: 10px;
+    height: 350px;
+}
+
+    .end > .img-final > img {
+    display: none;
 }
 
 #interface {

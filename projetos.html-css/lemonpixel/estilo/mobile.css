@@ -54,6 +54,12 @@ hr {
 
 main {
     font-family: var(--fonte-header);
+    display: grid;
+    grid-template: auto / auto 90vw auto;
+}
+
+section {
+    grid-column: 2;
 }
 
 .apresentaçao {

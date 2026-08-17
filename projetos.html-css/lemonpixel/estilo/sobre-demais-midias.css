@@ -1,3 +1,95 @@
 @media screen and (min-width: 992px) {
+    header > a > img {
+        display: none;
+    }
 
+    header {
+        margin-top: 30px;
+    }
+
+    header > a > img {
+        display: none;
+    }
+
+    hr {
+        display: block;
+    }
+
+    .cabeçalho {
+        display: block;
+        display: flex;
+        gap: 50px;
+        margin-right: 30px;
+    }
+
+    .cabeçalho > a {
+        text-decoration: none;
+        color: black;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    .cabeçalho > a:hover {
+        color: #004466;
+        background-color: #a8a802;
+    }
+
+    #apresentaçao {
+        margin-top: 30px;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .info-chaveiros > h3 {
+        font-size: 1.4em;
+        margin-bottom: 94px;
+    }
+
+    #descriçao {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        gap: 30px;
+        padding: 3px;
+        border: none;
+    }
+
+    .especialidades {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-around;
+        padding: 10px;
+    }
+
+    .end {
+        margin-top: 50px;
+        border: 3px dashed rgb(137, 204, 37);
+        display: flex;
+        align-items: center;
+        flex-flow: row nowrap;
+    }
+
+    .end > .img-final > img {
+        display: block;
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .text-end {
+        margin-bottom: 15px;
+    }
+
+    #interface {
+        display: none;
+    }
+}
+
+@media sreen and (min-width: 1200px) {
+    .end {
+        height: 300px;
+    }
 }
