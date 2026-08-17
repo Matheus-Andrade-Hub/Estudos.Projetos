@@ -13,7 +13,8 @@ html, body {
 }
 
 p {
-    line-height: 1.5em
+    line-height: 1.5em;
+    font-size: 1.1em;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
@@ -59,13 +60,18 @@ header > h1 {
 }
 
 main {
-    height: 2430px;
+    display: grid;
+    grid-template: auto / auto 90vw auto;
+    height: 2700px;
+}
+
+section {
+    grid-column: 2;
 }
 
 #apresentaçao {
     display: flex;
     flex-flow: column nowrap;
-    padding: 10px;
     gap: 30px;
 }
 
@@ -115,7 +121,7 @@ main {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
-    gap: 70px;
+    gap: 100px;
     width: 390px;
     margin: auto;
     border-color: rgb(137, 204, 37);
@@ -129,9 +135,11 @@ main {
     box-shadow: 1px 1px 10px;
     border-radius: 10px;
     margin-bottom: 50px;
-    padding: 10px;
     width: 170px;
     height: 210px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .especialidades > img {
@@ -145,6 +153,7 @@ main {
 
 .especialidades > p {
     line-height: 1.5em;
+
 }
 
 .info-chaveiros > h3 {
