@@ -96,6 +96,13 @@ section {
     text-align: center;
 }
 
+.inicio-txt > h2 {
+    margin-bottom: 10px;
+    font-size: 2.7em;
+    color: green;
+    font-family: var(--fonte-header);
+}
+
 .inicio-txt > p {
     line-height: 1.5em;
 }
