@@ -29,6 +29,10 @@ p, h2, h3, a {
     font-family: var(--fonte-destaque);
 }
 
+p {
+    font-size: 1.2em;
+}
+
 :root {
     --cor-principal: #f9d6b8;
     --cor-destaque: #fff8e8;
@@ -58,6 +62,7 @@ header > a > img {
 
 header > h1 {
     margin-left: 18px;
+    font-size: 3.0em;
     color: #f5de2e;
 }
 
@@ -86,11 +91,14 @@ section {
 
 .apre-text > h1{
     margin-bottom: 10px;
+    font-size: 3.0em;
+    font-family: var(--fonte-header);
     color: var(--cor-h2);
 }
 
-.apre-text h2 {
+.apre-text > h2 {
     margin-bottom: 10px;
+    font-size: 1.8em;
 }
 
 .apre-text > p {

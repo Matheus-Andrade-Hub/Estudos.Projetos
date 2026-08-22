@@ -20,6 +20,8 @@
     }
 
     .cabeçalho > a {
+        display: flex;
+        align-items: center;
         text-decoration: none;
         color: black;
         border-radius: 10px;

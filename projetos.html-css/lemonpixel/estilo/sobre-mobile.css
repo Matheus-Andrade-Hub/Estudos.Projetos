@@ -16,9 +16,14 @@ html, body {
     padding: 0px;
 }
 
-p, h3 {
+h3 {
     line-height: 1.5em;
     font-size: 1.1em;
+    font-family: var(--fonte-destaque);
+}
+
+p {
+    font-size: 1.2em;
     font-family: var(--fonte-destaque);
 }
 
@@ -56,6 +61,8 @@ header > a > img {
 
 header > h1 {
     margin-left: 18px;
+    font-family: var(--fonte-header);
+    font-size: 3em;
     color: #f5de2e;
 }
 
@@ -80,6 +87,8 @@ section {
 
 .inicio-txt > h1 {
     color: var(--cor-h2);
+    font-family: var(--fonte-header);
+    font-size: 3.0em;
 }
 
 .inicio-txt, h1 p {
@@ -175,7 +184,7 @@ section {
 
 #final {
     padding: 10px;
-    height: 350px;
+    height: 450px;
 }
 
     .end > .img-final > img {
