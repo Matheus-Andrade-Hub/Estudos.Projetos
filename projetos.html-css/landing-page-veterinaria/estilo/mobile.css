@@ -32,10 +32,6 @@ main > * {
     grid-column: 2;
 }
 
-.apresentaçao {
-
-}
-
 .inicio {
     display: flex;
     flex-flow:  column nowrap;
@@ -54,12 +50,60 @@ main > * {
     text-align: center;
 }
 
-.inicio-img> img{
+.inicio-img > img{
     display: block;
     margin: auto;
     border-radius: 10px;
     margin-bottom: 70px;
     width: 90%;
     height: 370px;
+    object-fit: cover;
+}
+
+
+.detalhes {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+
+.qualidades {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 15px;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px black;
+    border: 2px solid black;
+    color: white;
+    background-color: rgb(1, 178, 1);
+}
+
+.qualidades > img {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+}
+
+#pre-serviços {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+#pre-serviços > h3 {
+    color: rgb(1, 104, 1);
+}
+
+#pre-serviços > img {
+    width: 54px;
+    height: 54px;
     object-fit: cover;
 }
