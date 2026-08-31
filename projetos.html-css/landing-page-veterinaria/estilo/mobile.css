@@ -17,6 +17,7 @@ html, body {
 
 header {
     padding: 15px;
+    text-align: center;
 }
 
 nav {
@@ -82,7 +83,7 @@ main > * {
     box-shadow: 3px 3px 5px black;
     border: 2px solid black;
     color: white;
-    background-color: rgb(1, 178, 1);
+    background-color: rgb(2, 134, 2);
 }
 
 .qualidades > img {
@@ -105,5 +106,36 @@ main > * {
 #pre-serviços > img {
     width: 54px;
     height: 54px;
+    object-fit: cover;
+}
+
+.serviços-container {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 40px;
+    margin-bottom: 100px;
+}
+
+.card-flex {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 30px;
+    margin-left: 15px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: rgb(250, 211, 137);
+}
+
+.card-img {
+    border-radius: 10px;
+    margin-left: 7px;
+    background-color: rgb(118, 175, 25);
+}
+
+.card-img > img{
+    width: 100px;
+    height: 100px;
     object-fit: cover;
 }
