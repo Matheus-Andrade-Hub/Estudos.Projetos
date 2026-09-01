@@ -17,6 +17,7 @@ html, body {
 
 header {
     padding: 15px;
+    margin-top: 15px;
     text-align: center;
 }
 
@@ -125,17 +126,50 @@ main > * {
     padding: 10px;
     border: 1px solid black;
     border-radius: 15px;
-    background-color: rgb(250, 211, 137);
+    background-color: rgb(253, 197, 93);
 }
 
 .card-img {
     border-radius: 10px;
     margin-left: 7px;
-    background-color: rgb(118, 175, 25);
+    border: 2px solid black;
+    background-color: rgb(255, 219, 148);
 }
 
 .card-img > img{
     width: 100px;
     height: 100px;
     object-fit: cover;
+}
+
+.card-text > h4{
+    margin-bottom: 5px;
+}
+
+.card-text > p {
+    line-height: 1.5em;
+}
+
+.detalhes-final {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 50px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.conteudo-img  > img{
+    width: 370px;
+    height: 370px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.conteudo-text {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 20px;
+    text-align: center;
 }
