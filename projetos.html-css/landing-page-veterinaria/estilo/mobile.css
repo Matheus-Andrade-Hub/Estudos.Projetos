@@ -27,7 +27,7 @@ nav {
 
 main {
     display: grid;
-    grid-template: auto / auto 90vw auto;
+    grid-template: auto / auto  90vw auto;
 }
 
 main > * {
@@ -172,4 +172,33 @@ main > * {
     flex-flow: column nowrap;
     gap: 20px;
     text-align: center;
+}
+
+.opçoes-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 10px;
+    background-color: greenyellow;
+    width: 100vw;
+}
+
+.card-container {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 5px; 
+    padding-right: 10px;
+}
+
+.card-container > a > img {
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    width: 28px;
+    height: 28px;
+    object-fit: cover;
 }
