@@ -28,6 +28,7 @@ nav {
 main {
     display: grid;
     grid-template: auto / auto  90vw auto;
+    padding-bottom: 120px;
 }
 
 main > * {
@@ -178,6 +179,7 @@ main > * {
     position: fixed;
     bottom: 0;
     left: 0;
+    height: auto;
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
@@ -201,4 +203,55 @@ main > * {
     width: 28px;
     height: 28px;
     object-fit: cover;
+}
+
+footer {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: auto;
+    gap: 30px;
+    text-align: center;
+}
+
+#final > img {
+    width: 32px;
+    height: 32px;
+}
+
+#final > h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#final > p {
+    text-align: center;
+}
+
+.conteudo-footer {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.conteudo {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 7px;
+    margin-top: 10px;
+}
+
+.conteudo > img {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+}
+
+.redes {
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
 }
