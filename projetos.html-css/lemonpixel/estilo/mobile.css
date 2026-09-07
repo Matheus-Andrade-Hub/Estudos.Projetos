@@ -154,7 +154,15 @@ section {
     gap: 30px;
     margin-bottom: 30px;
     padding: 15px;
-    height: 830px;
+    height: auto;
+}
+
+.produto-chaveiro > h1 {
+    text-align: center;
+    color: rgb(255, 145, 0);
+    font-family: var(--fonte-destaque);
+    margin-bottom: 30px;
+    margin-top: 20px;
 }
 
 .chaveiro-area {
@@ -163,6 +171,18 @@ section {
     border-radius: 10px;
     box-shadow: 1px 1px 3.5px;
     padding: 15px;
+}
+
+.produto-brinco > h1 {
+    text-align: center;
+    color: rgb(255, 145, 0);
+    font-family: var(--fonte-destaque);
+}
+
+.produto-ima > h1 {
+    text-align: center;
+    color: rgb(255, 145, 0);
+    font-family: var(--fonte-destaque);
 }
 
 .chaveiro-text {
