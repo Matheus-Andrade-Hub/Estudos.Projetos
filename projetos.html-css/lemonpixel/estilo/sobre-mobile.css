@@ -74,6 +74,7 @@ hr {
 main {
     display: grid;
     grid-template: auto / auto 90vw auto;
+    padding-bottom: 100px;
 }
 
 section {
@@ -194,7 +195,7 @@ section {
     padding: 10px;
     box-sizing: border-box;
     margin-bottom: 50px;
-    height: 700px;
+    height: auto;
 }
 
     .end > .img-final > img {
