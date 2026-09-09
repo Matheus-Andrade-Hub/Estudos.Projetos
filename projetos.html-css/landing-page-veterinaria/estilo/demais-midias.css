@@ -1,0 +1,32 @@
+@media  screen and (min-width: 768px) {
+    .inicio-img > img {
+        width: 500px;
+    }
+
+    .detalhes {
+        display: flex;
+        flex-flow: row nowrap;
+        gap: 40px;
+        margin-bottom: 80px;
+    }
+
+    .conteudo-img > img {
+        width: 600px;
+        height: auto;
+    }
+
+    footer {
+        display: block;
+    }
+
+    .footer-flex {
+        margin: 40px 0px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    
+}

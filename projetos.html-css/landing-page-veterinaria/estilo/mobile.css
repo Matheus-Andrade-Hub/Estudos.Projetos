@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Penultimate&display=swap');
+
+
 html, body {
     height: 100vh;
 }
@@ -13,6 +18,7 @@ html, body {
 :root {
     --cor-verde-escuro: #4b7239;
     --cor-bege: #fbf7ee;
+    --font-titulo: "Montserrat", Arial, Helvetica, sans-serif; 
 }
 
 header {
@@ -35,6 +41,18 @@ main > * {
     grid-column: 2;
 }
 
+h1, h2, h3, h4{
+    font-family: var(--font-titulo);
+    line-height: 1.5em;
+}
+
+a {
+    font-family: cursive;
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(255, 140, 0);
+}
+
 .inicio {
     display: flex;
     flex-flow:  column nowrap;
@@ -49,6 +67,12 @@ main > * {
     gap: 20px;
 }
 
+.inicio-container > p {
+    font-family: var(--font-titulo);
+    font-weight: 600;
+    padding: 10px;
+}
+
 .inicio-container {
     text-align: center;
 }
@@ -58,8 +82,7 @@ main > * {
     margin: auto;
     border-radius: 10px;
     margin-bottom: 70px;
-    width: 90%;
-    height: 370px;
+    width: 370px;
     object-fit: cover;
 }
 
@@ -94,6 +117,12 @@ main > * {
     object-fit: cover;
 }
 
+.qualidades > p {
+    font-family: var(--font-titulo);
+    font-weight: 600;
+    padding: 10px;
+}
+
 #pre-serviços {
     display: flex;
     flex-flow: column nowrap;
@@ -109,6 +138,12 @@ main > * {
     width: 54px;
     height: 54px;
     object-fit: cover;
+}
+
+#pre-serviços > p {
+    font-family: var(--font-titulo);
+    font-weight: 600;
+    padding: 10px;
 }
 
 .serviços-container {
@@ -149,6 +184,10 @@ main > * {
 
 .card-text > p {
     line-height: 1.5em;
+    font-family: var(--font-titulo);
+    font-weight: 600;
+    padding: 10px;
+    padding: 10px;
 }
 
 .detalhes-final {
@@ -173,6 +212,12 @@ main > * {
     flex-flow: column nowrap;
     gap: 20px;
     text-align: center;
+}
+
+.conteudo-text > p {
+    font-family: var(--font-titulo);
+    font-weight: 600;
+    padding: 10px;
 }
 
 .opçoes-container {
@@ -205,11 +250,16 @@ main > * {
     object-fit: cover;
 }
 
+.card-container > p {
+    font-family: var(--font-titulo);
+    font-weight: 600;
+}
+
 footer {
     display: flex;
     flex-flow: column nowrap;
     margin: auto;
-    gap: 30px;
+    gap: 10px;
     text-align: center;
 }
 
@@ -230,6 +280,13 @@ footer {
 .conteudo-footer {
     display: flex;
     flex-flow: column nowrap;
+    margin: 30px 0px;
+}
+
+.conteudo-footer01 > p{
+    font-family: var(--font-titulo);
+    font-weight: 600;
+    padding: 10px;
 }
 
 .conteudo {
@@ -245,6 +302,12 @@ footer {
     object-fit: cover;
 }
 
+.conteudo > p {
+    font-family: var(--font-titulo);
+    font-weight: 600;
+    padding: 10px;
+}
+
 .redes {
     text-align: center;
     margin: auto;
@@ -254,4 +317,10 @@ footer {
     align-items: center;
     gap: 10px;
     margin-bottom: 15px;
+}
+
+.redes > p {
+    font-family: var(--font-titulo);
+    font-weight: 600;
+    padding: 10px;
 }
