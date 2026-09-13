@@ -52,14 +52,98 @@
     li > a {
         display: block;
         padding: 7px;
-        transition: margin-bottom 1s;
     }
 
     li > a:hover {
-        font-weight: bolder;
-        border-radius: 10px;
-        margin-bottom: 10px;
         color: white;
+        border-radius: 10px;
         background-color: rgb(75, 241, 66);
+    }
+
+    .opçoes-container {
+        display: none;
+    }
+
+    .inicio {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+    }
+
+    .inicio-container {
+        margin-bottom: 100px;
+    }
+
+    .detalhes {
+        margin-top: 50px;
+    }
+
+    #pre-serviços {
+        margin: 50px 0px;
+    }
+
+    .serviços-container {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-evenly;
+        align-items: center;
+        height: auto;
+        padding: 10px;
+        margin-top: 90px;
+    }
+
+    .card-flex {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        width: 200px;
+        padding-top: 30px;
+    }
+
+    .link-serviços{
+        color: black;
+        height: 100%;
+    }
+
+    .card-text {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        text-align: center;
+        height: 200px;
+    }
+
+    .detalhes-final {
+        display: flex;
+        flex-flow: row nowrap;
+    }
+
+    .conteudo-img > img{
+        width: 500px; 
+        height: auto;
+    }
+
+    footer {
+        margin-top: 80px;
+        width: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: space-between;
+        gap: 50px;
+    }
+
+    .footer-flex {
+        gap: 100px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    ul {
+        width: 600px;
+    }
+
+    #serviços {
+        margin-bottom: 50px;
     }
 }

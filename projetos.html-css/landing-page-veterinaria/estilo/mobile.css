@@ -27,6 +27,13 @@ header {
     text-align: center;
 }
 
+header > h1 {
+    background: linear-gradient( to right,  rgb(0, 254, 0), rgb(191, 255, 64), green);
+    background-clip: text;
+    color: transparent;
+    
+}
+
 nav {
     display: none;
 }
@@ -262,6 +269,12 @@ footer {
     margin: auto;
     gap: 10px;
     text-align: center;
+}
+
+    .conteudo-footer01 > h2{
+    background: linear-gradient( to right,  rgb(0, 254, 0), rgb(191, 255, 64), green);
+    background-clip: text;
+    color: transparent;
 }
 
 #final > img {
