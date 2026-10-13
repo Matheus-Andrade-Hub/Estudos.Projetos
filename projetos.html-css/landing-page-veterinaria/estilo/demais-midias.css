@@ -36,6 +36,11 @@
         justify-content: space-between;
     }
 
+    header > h1 {
+        display: flex;
+        align-items: center;
+    }
+
     nav {
         display: block;
     }

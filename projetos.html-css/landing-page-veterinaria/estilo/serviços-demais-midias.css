@@ -5,6 +5,51 @@
         justify-content: space-between;
     }   
 }
-@media screen and (min-width: 922px) {
-            
+
+@media screen and (min-width: 992px) {
+    header {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: space-between;
+        height: 78px;
+    }
+
+    header > h1 {
+        height: 48px;
+        max-width: 100%;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+    }
+
+    nav {
+        display: block;
+    }
+
+    ul {
+        display: flex;
+        flex-flow: row nowrap;
+        list-style: none;
+        justify-content: space-between;
+        width: 450px;
+        height: 35px;
+        margin-right: 10px;
+    }
+
+    li > a {
+        display: block;
+        padding: 7px;
+        font-size: 1.1em;
+    }
+
+    li > a:hover {
+        color: white;
+        border-radius: 10px;
+        background-color: rgb(75, 241, 66);
+    }
+
+    #opçoes {
+        display: none;
+    }
 }
